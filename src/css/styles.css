@@ -5,7 +5,7 @@
   |============================
 */
 @import url('./src/css/reset.css');
-@import url('./src/css/header.css');
+@import url('./header.css');
 @import url('./src/css/hero.css');
 @import url('./src/css/about.css');
 @import url('./src/css/yachts.css');
