@@ -29,3 +29,12 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+body {
+  background: #0e1823;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  padding: 0 20px;
+}
