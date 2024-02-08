@@ -1,11 +1,11 @@
 {
-  "name": "team-20-yacht-site",
+  "name": "front-end-avengers-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/team-20-yacht-site/",
+    "build": "vite build --base=/front-end-avengers-project/",
     "preview": "vite preview"
   },
   "devDependencies": {
