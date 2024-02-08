@@ -4,15 +4,16 @@
   | default @import url()
   |============================
 */
-@import url("./src/css/reset.css");
-@import url("./src/css/header.css");
-@import url("./src/css/hero.css");
+@import url('./src/css/reset.css');
+@import url('./src/css/header.css');
+@import url('./src/css/hero.css');
 @import url("./about.css");
-@import url("./src/css/yachts.css");
-@import url("./src/css/advantages.css");
-@import url("./src/css/rent.css");
-@import url("./src/css/reviews.css");
-@import url("./src/css/footer.css");
+@import url('./src/css/yachts.css');
+@import url('./src/css/advantages.css');
+@import url('./src/css/rent.css');
+@import url('./src/css/reviews.css');
+@import url('./footer.css');
+
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
