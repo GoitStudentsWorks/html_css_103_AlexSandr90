@@ -4,6 +4,11 @@
 .container {
 }
 
+.reviews-title-cont {
+  width: 335px;
+  height: 207px;
+  margin-bottom: 30px;
+}
 .reviews-title {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
@@ -12,7 +17,7 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
-  opacity: 0.4;
+  margin-bottom: 25px;
 }
 
 .reviews-text {
@@ -23,6 +28,7 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
+  opacity: 0.4;
 }
 
 .reviews-list {
@@ -41,6 +47,8 @@
 }
 
 .reviews-img {
+  margin: 0 auto;
+  margin-bottom: 24px;
 }
 .reviews-name {
 }
@@ -52,6 +60,7 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #040306;
+  margin-bottom: 8px;
 }
 .reviews-name-text {
   font-family: 'Inter', sans-serif;
