@@ -14,7 +14,9 @@
     letter-spacing: -0.02em;
     color: #1b414b;
     line-height: 1;
-    padding-top: 40px;
+}
+.about-content {
+    padding: 40px 0;
 }
 .about-wrapper {
     display: flex;
@@ -22,7 +24,7 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 20px;
-    margin: 40px 0 40px 0;
+    margin-top: 40px;
 }
 .about-subtitle {
     font-size: 18px;
@@ -43,7 +45,6 @@
     display: block;
     position: absolute;
     left: 0;
-    width: 100%;
     border-radius: 0 24px 0 0;
 }
 
@@ -51,7 +52,6 @@
     .about-container {
         width: 335px;
     }
-    
     .about-title {
         width: 295px;
     }
@@ -63,8 +63,8 @@
     .about-container {
         width: 704px;
     }
-    .about-content{
-        padding: 0 12px;
+    .about-content {
+        padding: 50px 12px;
     }
     .about-title {
         font-size: 48px;
@@ -75,8 +75,6 @@
     }
     .about-wrapper {
         width: 389px;
-        height: 187px;
-        margin: 50px 0 50px 0;
     }
     .about-text {
         font-size: 13px;
@@ -87,13 +85,14 @@
     .about-container {
         width: 1180px;
     }
-    .about-content{
-        padding: 0 30px;
+    .about-content {
+        padding: 50px 30px 100px 30px;
         display: flex;
         justify-content: space-between;
     }
     .about-wrapper {
         width: 354px;
-        margin: 50px 0 100px 0;
+        margin-top: 0;
     }
+    
 }
