@@ -1,44 +1,68 @@
-<section class="rent">
+<section class="rent" id="rent">
   <div class="container">
-    <p class="rent-title">Rent a yacht now</p>
-    <form class="yacht-rent-form">
-      <input
-        class="rent-input"
-        id="user-name"
-        name="user-name"
-        type="text"
-        placeholder="Full Name"
-      />
-      <input
-        class="rent-input"
-        id="user-email"
-        name="user-email"
-        type="email"
-        placeholder="Email"
-      />
-      <input
-        class="rent-input"
-        id="user-phone"
-        name="user-phone"
-        type="tel"
-        placeholder="Phone number"
-      />
-
-      <div class="comment-field">
-        <textarea
-          class="rent-text-input"
-          id="user-comment"
-          name="user-comment"
-          placeholder="Comment"
-        ></textarea>
+    <div class="rent-wrap">
+      <div class="form-wrap">
+        <h2 class="rent-title">Rent a yacht now</h2>
+        <form class="rent-form">
+          <input
+            class="form-input"
+            type="text"
+            name="user-name"
+            pattern="[A-Za-z]"
+            placeholder="Full Name"
+          />
+          <input
+            class="form-input"
+            type="email"
+            name="user-email"
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+            placeholder="Email"
+          />
+          <input
+            class="form-input"
+            type="tel"
+            name="user-tel"
+            pattern="[0-9]{10}"
+            placeholder="Phone number"
+          />
+          <textarea
+            class="form-text-input"
+            name="comment"
+            placeholder="Comment"
+          ></textarea>
+          <button class="rent-btn" type="submit">Send</button>
+        </form>
       </div>
-      <button class="rent-button" type="submit">Send</button>
-    </form>
-    <img
-      src="../img/rent/rent-img-mob-1x.jpg"
-      alt="Rent a yacht"
-      width="335"
-      height="412"
-    />
+      <picture>
+        <source
+          srcset="
+            ../img/rent/rent-img-dt-1x.jpg 1x,
+            ../img/rent/rent-img-dt-2x.jpg 2x
+          "
+          media="(min-width: 1158px)"
+        />
+        <source
+          srcset="
+            ../img/rent/rent-img-tab-1x.jpg 1x,
+            ../img/rent/rent-img-tab-2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ../img/rent/rent-img-mob-1x.jpg 1x,
+            ../img/rent/rent-img-mob-2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          src="../img/rent/rent-img-mob-1x.jpg"
+          class="rent-img"
+          alt="Rent a yacht"
+          width="658"
+          height="534"
+        />
+      </picture>
+    </div>
   </div>
 </section>
