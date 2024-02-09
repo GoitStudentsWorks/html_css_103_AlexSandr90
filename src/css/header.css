@@ -1,3 +1,25 @@
 .header {
-  padding: 20px 0;
+  border-radius: 8px;
+  border: 1px solid #FBFBFB;
+  background: #FBFBFB;
+}
+
+.container {}
+
+.header-navigation {}
+
+.header-logo {
+  color: #1B414B;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.03em;
+}
+
+.header-open-btn {
+  width: 28px;
+  height: 28px;
+  background-color: transparent;
 }
