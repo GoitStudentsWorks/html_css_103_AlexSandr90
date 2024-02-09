@@ -8,7 +8,7 @@
 @import url('./header.css');
 @import url('./src/css/hero.css');
 @import url("./about.css");
-@import url('./src/css/yachts.css');
+@import url('./yachts.css');
 @import url('./src/css/advantages.css');
 @import url('./rent.css');
 @import url('./src/css/reviews.css');
@@ -52,6 +52,6 @@ body {
 
 @media screen and (min-width: 1280px) {
   .container {
-    max-width: 768px;
+    max-width: 1280px;
   }
 }
