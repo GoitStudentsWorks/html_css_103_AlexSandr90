@@ -2,7 +2,8 @@
 
 .container {}
 
-.yachts-conteiner {}
+.yachts-conteiner {
+}
 
 .yachts-title {}
 
@@ -11,6 +12,13 @@
 .yachts-list {}
 
 .yachts-item {}
+
+.ben{
+    display: none;
+}
+.anna{
+    display: none;
+}
 
 .yachts-img {}
 
