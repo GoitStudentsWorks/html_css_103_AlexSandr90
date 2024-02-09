@@ -4,9 +4,14 @@
   background: #FBFBFB;
 }
 
-.container {}
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+}
 
-.header-navigation {}
+.header-navigation {
+  display: block;
+}
 
 .header-logo {
   color: #1B414B;
@@ -19,7 +24,16 @@
 }
 
 .header-open-btn {
+  padding: 0;
+  border: none;
   width: 28px;
   height: 28px;
   background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-open-icon {
+  fill: #1B414B;
 }
