@@ -1,4 +1,4 @@
-<section class="about">
+<section class="about" id="about">
   <div class="container about-container">
     <div class="about-content">
       <h2 class="about-title">
@@ -18,30 +18,34 @@
         </p>
       </div>
     </div>
-    <picture>
-      <source
-        srcset="
-          ./images/about-mobile-yacht.jpg   1x,
-          ./images/about-mobile-yacht@2.jpg 2x
-        "
-        media="(max-width: 767px)"
-      >
-      <source
-        srcset="./images/about-tab-yacht.jpg 1x, ./images/about-tab-yacht@2.jpg 2x"
-        media="(min-width: 768px) and (max-width: 1279px)"
-      >
-      <source
-        srcset="
-          ./images/about-desktop-yacht.jpg   1x,
-          ./images/about-desktop-yacht@2.jpg 2x
-        "
-        media="(min-width: 1280px)"
-      >
-      <img
-        class="about-img"
-        src="./images/about-mobile-yacht.jpg"
-        alt="beautiful yacht"
-      >
-    </picture>
+      <picture>
+        <source
+          srcset="
+            ./images/about-img/about-mobile-yacht.jpg   1x,
+            ./images/about-img/about-mobile-yacht@2.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <source
+          srcset="
+            ./images/about-img/about-tab-yacht.jpg   1x,
+            ./images/about-img/about-tab-yacht@2.jpg 2x
+          "
+          media="(min-width: 768px) and (max-width: 1279px)"
+        />
+        <source
+          srcset="
+            ./images/about-img/about-desktop-yacht.jpg   1x,
+            ./images/about-img/about-desktop-yacht@2.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <img
+          class="about-img"
+          src="./images/about-img/about-mobile-yacht.jpg"
+          alt="beautiful yacht"
+        />
+      </picture>
+ 
   </div>
 </section>
