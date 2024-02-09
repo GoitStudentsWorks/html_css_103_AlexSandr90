@@ -83,6 +83,17 @@
     margin-bottom: 75px;
   }
 
+  .reviews-title {
+    font-size: 48px;
+  }
+
+  .reviews-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+  }
+
   .reviews-list .reviews-item:nth-last-child(2) {
     display: list-item;
   }
