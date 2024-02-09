@@ -1,4 +1,5 @@
 .reviews {
+  margin: 0 auto;
 }
 
 .container {
@@ -70,4 +71,30 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: rgba(4, 3, 6, 0.4);
+}
+
+/* ------------------------------ */
+/* -------------768-------------- */
+
+@media screen and (min-width: 768px) {
+  .reviews-title-cont {
+    width: 704px;
+    height: 205px;
+    margin-bottom: 75px;
+  }
+
+  .reviews-list .reviews-item:nth-last-child(2) {
+    display: list-item;
+  }
+
+  .reviews-list {
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+}
+
+/* ------------------------------ */
+/* -------------1280------------- */
+
+@media screen and (min-width: 1280px) {
 }
