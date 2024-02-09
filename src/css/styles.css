@@ -7,9 +7,11 @@
 @import url('./src/css/reset.css');
 @import url('./header.css');
 @import url('./src/css/hero.css');
+@import url('./src/css/header.css');
+@import url('./hero.css');
 @import url("./about.css");
 @import url('./yachts.css');
-@import url('./src/css/advantages.css');
+@import url('./advantages.css');
 @import url('./rent.css');
 @import url('./src/css/reviews.css');
 @import url('./footer.css');
