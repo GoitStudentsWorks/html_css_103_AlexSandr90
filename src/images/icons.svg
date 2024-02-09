@@ -9,5 +9,14 @@
 <symbol id="icon-ft-youtube-icon-opt" viewBox="0 0 32 32">
 <path d="M18.227 15.768l-3.12-1.456c-0.272-0.125-0.496 0.016-0.496 0.317v2.741c0 0.301 0.224 0.443 0.496 0.317l3.119-1.456c0.273-0.128 0.273-0.336 0-0.464zM16 2.667c-7.364 0-13.333 5.969-13.333 13.333s5.969 13.333 13.333 13.333 13.333-5.969 13.333-13.333-5.969-13.333-13.333-13.333zM16 21.417c-6.825 0-6.944-0.616-6.944-5.417s0.12-5.417 6.944-5.417c6.825 0 6.944 0.616 6.944 5.417s-0.12 5.417-6.944 5.417z"></path>
 </symbol>
+<symbol id="icon-line" viewBox="0 0 5008 32">
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="16" d="M0 16h5008"></path>
+</symbol>
+<symbol id="icon-header-open" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.8571" d="M4 20h24M4 12h24"></path>
+</symbol>
+<symbol id="icon-header-close" viewBox="0 0 32 32">
+<path d="M25.143 8.983l-2.126-2.126-7.017 7.017-7.017-7.017-2.126 2.126 7.017 7.017-7.017 7.017 2.126 2.126 7.017-7.017 7.017 7.017 2.126-2.126-7.017-7.017 7.017-7.017z"></path>
+</symbol>
 </defs>
 </svg>
