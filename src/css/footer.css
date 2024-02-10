@@ -67,6 +67,14 @@
     gap: 8px;
 }
 
+.footer-soc-med-icon {
+    fill: #fbfbfb;
+}
+
+.footer-soc-med-icon:hover,
+.footer-soc-med-icon:focus {
+    fill: rgba(251, 251, 251, 0.8);
+}
 
 .footer-text {
     font-weight: 400;
