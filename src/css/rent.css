@@ -51,6 +51,12 @@
     min-height: 108px;
 }
 
+.form-text-input::placeholder{
+    font-size: 12px;
+    line-height: 117%;
+    color: rgba(251, 251, 251, 0.4);
+}
+
 .rent-btn {
     border-radius: 15px;
     padding: 14px 44px;
