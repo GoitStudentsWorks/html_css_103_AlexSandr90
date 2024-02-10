@@ -1,7 +1,7 @@
 .footer {
     background-color: #1B414B;
     height: 412px;
-    width: 355px;
+    width: 100%;
     border-radius: 24px 24px 0 0;
     padding: 40px 30px 20px 30px;
     margin: 0 auto;
@@ -67,6 +67,14 @@
     gap: 8px;
 }
 
+.footer-soc-med-icon {
+    fill: #fbfbfb;
+}
+
+.footer-soc-med-icon:hover,
+.footer-soc-med-icon:focus {
+    fill: rgba(251, 251, 251, 0.8);
+}
 
 .footer-text {
     font-weight: 400;
