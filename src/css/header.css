@@ -2,15 +2,23 @@
   border-radius: 8px;
   border: 1px solid #FBFBFB;
   background: #FBFBFB;
+  width: 335px;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .header-wrap {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header-navigation {
   display: block;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .header-logo {
@@ -29,6 +37,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .header-open-icon {
