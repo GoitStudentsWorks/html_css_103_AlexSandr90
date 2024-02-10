@@ -61,6 +61,8 @@
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: #fbfbfb;
+    display: flex;
+    align-self: center;
 }
 
 .hero-anchor:hover,
