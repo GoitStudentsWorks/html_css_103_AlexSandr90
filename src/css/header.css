@@ -1,4 +1,36 @@
 .header {
-  padding: 20px 0;
-  color: red;
+  border-radius: 8px;
+  border: 1px solid #FBFBFB;
+  background: #FBFBFB;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-navigation {
+  display: block;
+}
+
+.header-logo {
+  color: #1B414B;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+}
+
+.header-open-btn {
+  padding: 0;
+  border: none;
+  width: 28px;
+  height: 28px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-open-icon {
+  fill: #1B414B;
 }
