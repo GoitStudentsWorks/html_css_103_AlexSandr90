@@ -130,6 +130,13 @@
         justify-content: center;
         align-items: center;
 }
+.yachts-btn:hover,
+.yachts-btn:focus{
+    background-color: #fbfbfb;
+    color: #1b414b;
+}
+
+
 
 /* *---------------------media----------------------- */
 /* ?---------------------tablet---------------------- */
