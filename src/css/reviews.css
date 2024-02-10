@@ -7,7 +7,12 @@
 
 .reviews-title-cont {
   width: 335px;
-  height: 207px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
 }
 .reviews-title {
@@ -77,9 +82,13 @@
 /* -------------768-------------- */
 
 @media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
   .reviews-title-cont {
     width: 704px;
-    height: 205px;
+    /* height: 205px; */
     margin-bottom: 75px;
   }
 
@@ -108,4 +117,30 @@
 /* -------------1280------------- */
 
 @media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+
+  .reviews-title-cont {
+    width: 854px;
+    /* height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* margin-bottom: 75px; */
+  }
+
+  .reviews-list .reviews-item:last-child {
+    display: list-item;
+  }
+
+  .reviews-list {
+    gap: 26px;
+  }
+
+  .reviews-item {
+    width: calc((100% - 52px) / 3);
+  }
 }
