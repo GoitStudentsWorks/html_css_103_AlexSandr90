@@ -1,7 +1,6 @@
 .footer {
     background-color: #1B414B;
-    width: 100%;
-    max-width: 300px;
+    width: calc(100% - 20px);
     border-radius: 24px 24px 0 0;
     padding: 40px 30px 20px 30px;
     margin: 0 auto;
@@ -138,10 +137,9 @@
     color: rgba(251, 251, 251, 0.4);
 }
 
-/*---------FOOTER TABLET---------------*/
+/*---------FOOTER TABLET 768---------------*/
 
 @media screen and (min-width: 768px) {
-
 
 
     .footer {
@@ -205,4 +203,36 @@
         line-height: 1.18;
     }
 
+}
+
+/*---------FOOTER DESKTOP 1280---------------*/
+
+@media screen and (min-width: 1280px) {
+
+    .footer {
+        max-width: 1230px;
+        padding: 50px 75px 20px 75px;
+
+    }
+
+    .footer-container {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-wrap {
+        gap: 311px;
+    }
+
+    .footer-logo {
+        margin-right: 326px;
+    }
+
+    .footer-down-wrap {
+        width: 693px;
+    }
+
+    .footer-text {
+        max-width: 693px;
+    }
 }
