@@ -2,8 +2,7 @@
   border-radius: 8px;
   border: 1px solid #FBFBFB;
   background: #FBFBFB;
-  max-width: 335px;
-  width: 100%;
+  width: calc(100% - 40px);
   position: absolute;
   top: 20px;
   left: 50%;
