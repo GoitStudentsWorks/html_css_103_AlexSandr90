@@ -168,7 +168,7 @@
     }
 }
 
-@media screen and (min-width:1281px) and (max-width:1300px) {
+@media screen and (min-width:1280px) and (max-width:1300px) {
     .advantages .container {
         padding: 0 40px;
     }
