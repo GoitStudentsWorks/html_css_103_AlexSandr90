@@ -127,10 +127,15 @@
         min-height: 116px;
     }
 
+    .form-text-input::placeholder {
+        font-size: 14px;
+    }
+
     .rent-btn {
         width: 194px;
         height: 56px;
         font-size: 18px;
+        margin-bottom: 100px;
     }
 }
 
@@ -159,6 +164,10 @@
 
     .form-input {
         height: 54px;
+    }
+
+    .rent-btn {
+        margin-bottom: 150px;
     }
 
 }
