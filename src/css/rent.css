@@ -49,6 +49,7 @@
     outline: transparent;
     width: 100%;
     min-height: 108px;
+    resize: none;
 }
 
 .form-text-input::placeholder{
