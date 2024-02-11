@@ -46,7 +46,6 @@
     position: absolute;
     left: 0;
     border-radius: 28px;
-    min-width: 281px;
     width: 100%;
 }
 
@@ -64,7 +63,7 @@
         width: 295px;
     }
     .about-img {
-        min-width: 335px;
+        width: 335px;
         height: 395px;
     }
 }
@@ -94,7 +93,7 @@
         font-size: 13px;
     }
     .about-img {
-        min-width: 704px;
+        width: 704px;
         height: 470px;
     }
 }
@@ -117,7 +116,7 @@
         margin-top: 0;
     }
     .about-img {
-        min-width: 1180px;
+        width: 1180px;
         height: 470px;
     }
 }
