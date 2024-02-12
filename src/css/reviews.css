@@ -1,8 +1,6 @@
 .reviews {
   margin: 0 auto;
-}
-
-.container {
+  padding-bottom: 80px;
 }
 
 .reviews-title-cont {
@@ -40,7 +38,7 @@
 
 .reviews-list {
   display: flex;
-  margin-bottom: 80px;
+  height: 282px;
 }
 
 .reviews-list .reviews-item:not(:first-child) {
@@ -58,8 +56,7 @@
   margin: 0 auto;
   margin-bottom: 24px;
 }
-.reviews-name {
-}
+
 .reviews-name-subtitle {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
@@ -84,6 +81,10 @@
 /* -------------768-------------- */
 
 @media screen and (min-width: 768px) {
+  .reviews {
+    padding-bottom: 150px;
+  }
+
   .reviews-title-cont {
     max-width: 704px;
     width: 100%;
