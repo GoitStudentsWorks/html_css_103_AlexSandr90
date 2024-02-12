@@ -232,10 +232,6 @@
   fill: rgba(251, 251, 251, 0.8);
 }
 
-
-
-
-
 .is-mob-menu-open {
   transform: translateX(0%);
 }
@@ -260,9 +256,9 @@
     align-items: center;
     justify-content: space-between;
   }
+
   .header-logo {
     font-size: 20px;
-    
   }
   
  .header-navigation-list {
@@ -277,7 +273,6 @@
     display: none;
   }
 
- 
 }
 
 @media screen and (min-width: 1280px) {
@@ -288,7 +283,7 @@
 
   .header-wrap {
     padding: 4px 30px;
-    }
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -296,6 +291,5 @@
   .header {
     max-width: 1240px;
   }
-
 
 }
