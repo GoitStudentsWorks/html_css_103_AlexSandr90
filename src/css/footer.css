@@ -1,11 +1,10 @@
 .footer {
     background-color: #1B414B;
     width: calc(100% - 20px);
+    max-width: 355px;
     border-radius: 24px 24px 0 0;
     padding: 40px 30px 20px 30px;
     margin: 0 auto;
-    margin-right: 10px;
-    margin-left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,8 +130,6 @@
 
 /*---------FOOTER TABLET 768---------------*/
 @media screen and (min-width: 768px) {
-
-
     .footer {
         max-width: 736px;
         padding: 50px 48px 20px 48px;
