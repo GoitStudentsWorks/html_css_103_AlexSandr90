@@ -1,5 +1,5 @@
 .advantages .container {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
 }
 
 .visually-hidden {
@@ -77,11 +77,10 @@
 @media screen and (min-width:768px) {
 
     .advantages .container {
-        padding: 0 32px;
+        padding: 0 32px 150px;
         display: flex;
         flex-direction: column;
         gap: 32px;
-        margin-bottom: 150px;
     }
 
     .advantages-section-text {
@@ -126,7 +125,7 @@
 @media screen and (min-width:1280px) {
 
     .advantages .container {
-        padding: 0 50px;
+        padding: 0 50px 150px;
         flex-direction: row;
         gap: 32px;
     }
@@ -170,6 +169,6 @@
 
 @media screen and (min-width:1280px) and (max-width:1300px) {
     .advantages .container {
-        padding: 0 40px;
+        padding: 0 40px 150px;
     }
 }
