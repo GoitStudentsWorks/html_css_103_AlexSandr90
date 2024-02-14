@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/front-end-avengers-project/",
+    "build": "vite build --base=/html_css_103_AlexSandr90/",
     "preview": "vite preview"
   },
   "devDependencies": {
